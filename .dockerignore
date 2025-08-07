@@ -1,0 +1,19 @@
+# .dockerignore
+__pycache__/
+*.pyc
+*.pkl
+*.csv
+*.log
+*.ipynb
+*.zip
+*.tar
+*.gz
+*.png
+*.jpg
+*.jpeg
+*.DS_Store
+venv/
+env/
+data/
+model/
+eda_outputs/
