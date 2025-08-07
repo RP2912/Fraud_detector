@@ -7,4 +7,5 @@ model/
 env/
 myenv/
 .venv/
-logs/
+logs/fraud_detection_app/data/Fraud.csv
+fraud_detection_app/data/Fraud.csv
