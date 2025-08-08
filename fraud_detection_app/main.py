@@ -1,6 +1,6 @@
 from fastapi import FastAPI
-from app.schema import TransactionData
-from app.predict import predict_fraud
+from app1.schema import TransactionData
+from app1.predict import predict_fraud
 
 app=FastAPI()
 

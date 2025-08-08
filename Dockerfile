@@ -5,7 +5,7 @@ FROM python:3.9
 WORKDIR /app
 
 # Copy app code
-COPY fraud_detection_app /app
+COPY fraud_detection_app/ /app/
 
 # Install dependencies
 COPY requirement.txt .
