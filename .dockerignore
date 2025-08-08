@@ -1,19 +1,28 @@
-# .dockerignore
+# Python cache and bytecode
 __pycache__/
 *.pyc
-*.pkl
-*.csv
-*.log
+
+# Jupyter and logs
 *.ipynb
+*.log
+
+# Datasets and models
+*.csv
+*.pkl
 *.zip
 *.tar
 *.gz
+data/
+model/
+eda_outputs/
+
+# Images and system files
 *.png
 *.jpg
 *.jpeg
 *.DS_Store
+
+# Virtual environments (IMPORTANT)
 venv/
 env/
-data/
-model/
-eda_outputs/
+myenv/  # ✅ <--- Add this!

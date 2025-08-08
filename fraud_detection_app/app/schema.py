@@ -6,6 +6,6 @@ class TransactionData(BaseModel):
 
     @validator('features')
     def validate_length(cls, v):
-        if len(v) != 5:
-            raise ValueError('Features list must contain exactly 5 elements.')
+        if len(v) != 4:
+            raise ValueError('Features list must contain exactly 4 elements.')
         return v
