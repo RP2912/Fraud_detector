@@ -2,11 +2,11 @@ FROM python:3.9
 
 WORKDIR /app
 
-# Copy app code into /app
+# Copy application code
 COPY fraud_detection_app/ /app/
 
-# Copy model folder into /app/model
-COPY app/model /app/model
+# Copy model folder to the exact location expected by code
+COPY fraud_detection_app/app/model /app/model
 
 # Install dependencies
 COPY requirement.txt .
