@@ -1,9 +1,7 @@
 __pycache__/
 *.pyc
-*.pkl
 *.html
-model/
-*.ipynb
+*.json
 env/
 myenv/
 .venv/
