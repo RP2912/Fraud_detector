@@ -7,3 +7,4 @@ myenv/
 .venv/
 logs/fraud_detection_app/data/Fraud.csv
 fraud_detection_app/data/Fraud.csv
+*model_pkl/
